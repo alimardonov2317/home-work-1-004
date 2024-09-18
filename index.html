@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+</head>
+<body>
+    <!-- Form -->
+    <form>
+        <fieldset>
+            <legend>Please fill out the form completely.</legend>
+            <h4>Your Account Information</h4>
+            <!-- Username -->
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username" placeholder="Username" required/>
+            <br/><br/>
+            <!-- Email -->
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter Email Address" required/>
+            <br/><br/>
+            <!-- Password -->
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter Password" minlength="8" maxlength="24" required/>
+            <h4>Your Personal Information</h4>
+            <!-- First Name -->
+            <label for="name">First Name:</label>
+            <input type="text" name="name" id="name" placeholder="Enter first Name" required>
+            <br><br>
+            <!-- Last Name -->
+            <label for="surname">Last Name:</label>
+            <input type="text" name="surname" id="surname" placeholder="Enter last Name" required>
+            <br><br>
+            <!-- Select -->
+            <label for="region">Choose a Region:</label>
+            <select name="region" id="region" required>
+                <option value="">Select</option>
+                <option value="Andijon">Andijon</option>
+                <option value="Sirdaryo">Sirdaryo</option>
+                <option value="Xorazm">Xorazm</option>
+                <option value="Farg`ona">Farg`ona</option>
+                <option value="Namangan">Namangan</option>
+                <option value="Toshkent">Toshkent</option>
+                <option value="Samarqand">Samarqand</option>
+                <option value="Jizzax">Jizzax</option>
+                <option value="Surxondaryo">Surxondaryo</option>
+                <option value="Qashqadaryo">Qashqadaryo</option>
+                <option value="Buxoro">Buxoro</option>
+                <option value="Navoiy">Navoiy</option>
+                <option value="Qoraqalpogʻiston">Qoraqalpogʻiston</option>
+            </select>
+            <br><br>
+            <!-- Radio -->
+            <label>Gender:</label>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" required>
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+            <br><br>
+            <!-- Checkbox -->
+            <label>Your Hobbies:</label>
+            <input type="checkbox" name="hobby" id="traveling"> 
+            <label for="traveling">Traveling</label>
+            <input type="checkbox" name="hobby" id="sport">
+            <label for="sport">Sport</label>
+            <input type="checkbox" name="hobby" id="reading">
+            <label for="reading">Reading a book</label>
+            <input type="checkbox" name="hobby" id="programming">
+            <label for="programming">Programming</label>
+            <br>
+            <br>
+            <!-- Button -->
+            <button>Save</button>
+        </fieldset>
+    </form>
+    <br>
+    <!-- Image -->
+    <a href="./about.html"><img src="/images/next page.png" width="200px" alt="next_page"></a>
+</html>

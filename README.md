@@ -1,0 +1,1 @@
+Ushbu loyihada input, select va button yordamida formalar htmlda yozilgan
